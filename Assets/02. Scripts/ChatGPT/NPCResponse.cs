@@ -13,4 +13,7 @@ public class NPCResponse
 
     [JsonProperty("StoryImageDescription")]
     public string StoryImageDescription { get; set; }
+
+    [JsonProperty("Affection_Change")]
+    public string AffectionChange { get; set; }
 }
