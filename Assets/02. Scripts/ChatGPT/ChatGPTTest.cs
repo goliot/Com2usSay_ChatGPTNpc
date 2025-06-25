@@ -92,7 +92,7 @@ public class ChatGPTTest : MonoBehaviour
         _messages.Add(reply);
 
         AddChatBubble($"{reply.Role} : {reply.Content.ToString()}", isUser: false);
-        PlayTTS(npcResponse.ReplyMessage);
+        //PlayTTS(npcResponse.ReplyMessage);
         //GenerateImage(npcResponse.StoryImageDescription);
         //AddChatBubbleAndSound(reply);
 

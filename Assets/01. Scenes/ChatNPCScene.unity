@@ -531,8 +531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7d6128dee957b946a6a7ebc8bdfaa7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1476873964}
-  smoothTime: 0.1
 --- !u!1 &376572123
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,8 +725,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 398, y: 103.6}
-  m_SizeDelta: {x: 1000, y: 600}
+  m_AnchoredPosition: {x: 513.3, y: 103.6}
+  m_SizeDelta: {x: 868.3, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387502647
 MonoBehaviour:
@@ -773,7 +771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -995,7 +993,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 512, y: 512}
+  m_SizeDelta: {x: 1024, y: 1024}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &664878661
 MonoBehaviour:
@@ -1462,10 +1460,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 664878660}
   - {fileID: 387502646}
   - {fileID: 1547199555}
   - {fileID: 2073182699}
-  - {fileID: 664878660}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1581,6 +1579,7 @@ GameObject:
   - component: {fileID: 1182378536}
   - component: {fileID: 1182378535}
   - component: {fileID: 1182378537}
+  - component: {fileID: 1182378538}
   m_Layer: 0
   m_Name: RolePlayingController
   m_TagString: Untagged
@@ -1605,30 +1604,7 @@ MonoBehaviour:
   PromptField: {fileID: 1547199556}
   SendButton: {fileID: 2073182700}
   GeneratedImage: {fileID: 664878661}
-  Profile: "\uC774\uB984: \uC544\uC774\uB9AC\uC2A4\n\uC18C\uAC1C: \uB9C8\uBC95\uD559\uAD50\uC5D0\uC11C
-    \uC628 \uD65C\uBC1C\uD55C \uC5EC\uD559\uC0DD."
-  Character: "\uC5ED\uD560: \uB108\uB294 \uB9C8\uBC95\uD559\uAD50\uC758 \uBBF8\uC18C\uB140
-    NPC '\uC544\uC774\uB9AC\uC2A4'\uB2E4.\n\uC678\uBAA8: \uBC1D\uC740 \uC740\uBC1C\uBA38\uB9AC,
-    \uD30C\uB780 \uB208\uB3D9\uC790, \uB9C8\uBC95\uBCF5\uC744 \uC785\uACE0 \uC788\uB2E4.\n\uC131\uACA9:
-    \uBA85\uB791\uD558\uACE0 \uC870\uAE08 \uC5C9\uB6B1\uD558\uBA70, \uD638\uAE30\uC2EC\uC774
-    \uB9CE\uB2E4.\n\uB9D0\uD22C: '~\uC778 \uAC70\uC57C!', '~\uD574\uC904\uAC8C!'\uCC98\uB7FC
-    \uCE5C\uADFC\uD558\uACE0 \uBC1C\uB784\uD55C \uB9D0\uD22C."
-  Advanced: "\uC608\uC2DC \uB300\uD654:\n\uC720\uC800: \uC624\uB298 \uBB50\uD558\uACE0
-    \uB180\uAE4C?\n\uC544\uC774\uB9AC\uC2A4: \uC74C~ \uADF8\uB7EC\uAC8C, \uAC19\uC774
-    \uB9C8\uBC95 \uC2E4\uC2B5\uD558\uB7EC \uAC08\uB798?\n\uC720\uC800: \uC88B\uC544!
-    \uC5B4\uB5A4 \uB9C8\uBC95\uC774 \uC7AC\uBC0C\uC5B4?\n\uC544\uC774\uB9AC\uC2A4:
-    \uBD88\uAF43 \uB9C8\uBC95! \uADFC\uB370 \uC870\uC2EC\uD574\uC57C \uD574. \uC2E4\uC218\uD558\uBA74
-    \uBA38\uB9AC\uCE74\uB77D \uD0C0\uBC84\uB824!"
-  Greeting: "\uCCAB \uC778\uC0AC\uB9D0: \uC548\uB155! \uD639\uC2DC \uB108\uB3C4 \uB9C8\uBC95\uC5D0
-    \uAD00\uC2EC \uC788\uB294 \uAC70\uC57C?"
-  GenreAndTarget: "\uC7A5\uB974: \uB85C\uB9E8\uC2A4\n\uD0C0\uAC9F: \uB0A8\uC131 \uC720\uC800
-    \uB300\uC0C1 \uB300\uD654"
-  Format: "[json \uD615\uC2DD\uC73C\uB85C \uB2F5\uBCC0\uD574\uC918]\n{\n\"reply_message\":
-    \"\uB300\uB2F5 \uB0B4\uC6A9 (100\uC790 \uC774\uB0B4)\",\n\"emotion\": \"\uAE30\uC068
-    | \uB180\uB78C | \uB2F9\uD669 | \uBD80\uB044\uB7EC\uC6C0 \uB4F1\",\n\"appearance\":
-    \"\uC9C0\uAE08 \uC0C1\uD669\uC5D0\uC11C\uC758 \uC678\uD615 \uBB18\uC0AC\",\n\"StoryImageDescription\":
-    \"\uC774 \uC7A5\uBA74\uC744 \uC774\uBBF8\uC9C0\uB85C \uB9CC\uB4E4\uBA74 \uC774\uB7F0
-    \uBAA8\uC2B5\"\n}"
+  Client: {fileID: 1182378538}
 --- !u!4 &1182378536
 Transform:
   m_ObjectHideFlags: 0
@@ -1741,11 +1717,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &1476873964 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4105362945620786471, guid: ebea5f8b8163f9a4ab9d9a1b45444e28, type: 3}
-  m_PrefabInstance: {fileID: 6445014}
+--- !u!114 &1182378538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182378534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8044a64e2f76f54fa92bb5cc3a26168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  comfyUIUrl: http://localhost:8188
+  enableDebugLogs: 1
 --- !u!1 &1525484807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,8 +1903,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 858, y: 233.1}
-  m_SizeDelta: {x: 693.04, y: 70}
+  m_AnchoredPosition: {x: 1045.5, y: 233.1}
+  m_SizeDelta: {x: 543, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1547199556
 MonoBehaviour:
@@ -2284,7 +2269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -62, y: 233.1}
+  m_AnchoredPosition: {x: -12.700012, y: 233.1}
   m_SizeDelta: {x: 293.2, y: 70}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &2073182700
